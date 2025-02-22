@@ -47,7 +47,7 @@ const Menu = () => {
               <a href="blog">blog</a>
             </li> */}
             <li>
-              <Link href="/contact">Contact Us</Link>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </Accordion.Collapse>
