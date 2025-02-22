@@ -130,7 +130,7 @@ const page = () => {
                           </div>
                         </div>
                         <h6>
-                          <Link href="contact">Desert Safari Abu Dhabi</Link>
+                          <Link href="contact">Desert Safari Abu Dhabii</Link>
                         </h6>
                         {/* <ul className="blog-meta">
                           <li>
