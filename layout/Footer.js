@@ -25,10 +25,10 @@ const FooterInstagram = () => {
           >
             <a
               className="instagram-item"
-              href="assets/images/instagram/instagram1.jpg"
+              href="/assets/images/instagram/instagram1.jpg"
             >
               <img
-                src="assets/images/instagram/instagram1.jpg"
+                src="/assets/images/instagram/instagram1.jpg"
                 alt="Instagram"
               />
             </a>
@@ -41,10 +41,10 @@ const FooterInstagram = () => {
           >
             <a
               className="instagram-item"
-              href="assets/images/instagram/instagram2.jpg"
+              href="/assets/images/instagram/instagram2.jpg"
             >
               <img
-                src="assets/images/instagram/instagram2.jpg"
+                src="/assets/images/instagram/instagram2.jpg"
                 alt="Instagram"
               />
             </a>
@@ -57,10 +57,10 @@ const FooterInstagram = () => {
           >
             <a
               className="instagram-item"
-              href="assets/images/instagram/instagram3.jpg"
+              href="/assets/images/instagram/instagram3.jpg"
             >
               <img
-                src="assets/images/instagram/instagram3.jpg"
+                src="/assets/images/instagram/instagram3.jpg"
                 alt="Instagram"
               />
             </a>
@@ -73,10 +73,10 @@ const FooterInstagram = () => {
           >
             <a
               className="instagram-item"
-              href="assets/images/instagram/instagram4.jpg"
+              href="/assets/images/instagram/instagram4.jpg"
             >
               <img
-                src="assets/images/instagram/instagram4.jpg"
+                src="/assets/images/instagram/instagram4.jpg"
                 alt="Instagram"
               />
             </a>
@@ -89,10 +89,10 @@ const FooterInstagram = () => {
           >
             <a
               className="instagram-item"
-              href="assets/images/instagram/instagram5.jpg"
+              href="/assets/images/instagram/instagram5.jpg"
             >
               <img
-                src="assets/images/instagram/instagram5.jpg"
+                src="/assets/images/instagram/instagram5.jpg"
                 alt="Instagram"
               />
             </a>
@@ -105,10 +105,10 @@ const FooterInstagram = () => {
           >
             <a
               className="instagram-item"
-              href="assets/images/instagram/instagram6.jpg"
+              href="/assets/images/instagram/instagram6.jpg"
             >
               <img
-                src="assets/images/instagram/instagram6.jpg"
+                src="/assets/images/instagram/instagram6.jpg"
                 alt="Instagram"
               />
             </a>
@@ -124,7 +124,7 @@ const Footer1 = () => {
     <footer
       className="main-footer bgs-cover overlay rel z-1 pb-25"
       style={{
-        backgroundImage: "url(assets/images/backgrounds/footer.jpg)",
+        backgroundImage: "url(/assets/images/backgrounds/footer.jpg)",
       }}
     >
       <div className="container">
@@ -139,7 +139,7 @@ const Footer1 = () => {
               <div className="footer-widget footer-text">
                 <div className="footer-logo mb-25">
                   <Link href="/">
-                    <img src="assets/images/logos/logo.png" alt="Logo" />
+                    <img src="/assets/images/logos/rdusk-logo.png" width={160} alt="Logo" />
                   </Link>
                 </div>
                 <p>
@@ -382,7 +382,7 @@ const Footer1 = () => {
           </div>
           {/* Scroll Top Button */}
           <button className="scroll-top scroll-to-target" data-target="html">
-            <img src="assets/images/icons/scroll-up.png" alt="Scroll  Up" />
+            <img src="/assets/images/icons/scroll-up.png" alt="Scroll  Up" />
           </button>
         </div>
       </div>
@@ -397,7 +397,7 @@ const Footer2 = ({ insta }) => {
         insta ? "" : "pt-100 pb-115"
       }`}
       style={{
-        backgroundImage: "url(assets/images/backgrounds/footer-two.png)",
+        backgroundImage: "url(/assets/images/backgrounds/footer-two.png)",
       }}
     >
       {insta && <FooterInstagram />}
@@ -413,12 +413,12 @@ const Footer2 = ({ insta }) => {
               <div className="footer-widget footer-text">
                 <div className="footer-logo mb-40">
                   <Link href="/">
-                    <img src="assets/images/logos/logo.png" alt="Logo" />
+                    <img src="/assets/images/logos/white-logo.png" width={170} alt="Logo" />
                   </Link>
                 </div>
                 <div className="footer-map">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d96777.16150026117!2d-74.00840582560909!3d40.71171357405996!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1706508986625!5m2!1sen!2sbd"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.8717896147505!2d55.37710464224426!3d25.11856904046068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6f9f1fbfb607%3A0x4db0a2f5f59532d9!2sIFZA%20Business%20Park!5e0!3m2!1sen!2sin!4v1740376682396!5m2!1sen!2sin"
                     style={{ border: 0, width: "100%" }}
                     allowFullScreen=""
                     loading="lazy"
@@ -494,18 +494,18 @@ const Footer2 = ({ insta }) => {
                 </div>
                 <ul className="list-style-one">
                   <li>
-                    <i className="fal fa-map-marked-alt" /> 578 Level, D-block
-                    45 Street Melbourne, Australia
+                    <i className="fal fa-map-marked-alt" />
+                    IFZA Business Park, DDP, 56942 - 001, A1 - 3641379065
                   </li>
                   <li>
                     <i className="fal fa-envelope" />{" "}
-                    <a href="mailto:supportrevelo@gmail.com">
-                      supportrevelo @gmail.com
+                    <a href="mailto:go@royaldusk.com">
+                    go@royaldusk.com
                     </a>
                   </li>
                   <li>
                     <i className="fal fa-phone-volume" />{" "}
-                    <a href="callto:+88012334588">+880 (123) 345 88</a>
+                    <a href="callto:+919876349140">+91 98763-49140</a>
                   </li>
                 </ul>
               </div>
@@ -516,14 +516,14 @@ const Footer2 = ({ insta }) => {
       <div className="footer-bottom bg-transparent pt-20 pb-5">
         <div className="container">
           <div className="row">
-            <div className="col-lg-5">
-              <div className="copyright-text text-center text-lg-start">
+            {/* <div className="col-lg-12"> */}
+              <div className="copyright-text text-center">
                 <p>
-                  <a href="">Royal Dusk</a> All rights reserved
+                  <a href="">ROYAL DUSK TOURS - FZCO</a> All rights reserved
                 </p>
               </div>
-            </div>
-            <div className="col-lg-7 text-center text-lg-end">
+            {/* </div> */}
+            {/* <div className="col-lg-7 text-center text-lg-end">
               <ul className="footer-bottom-nav">
                 <li>
                   <Link href="about">Terms</Link>
@@ -538,7 +538,7 @@ const Footer2 = ({ insta }) => {
                   <Link href="about">Accessibility</Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

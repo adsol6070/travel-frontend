@@ -18,14 +18,14 @@ const page = () => {
               <div className="shop-shorter rel z-3 mb-20">
                 <ul className="grid-list mb-15 me-2">
                   <li>
-                    <a href="contact">
+                    <Link href="/contact">
                       <i className="fal fa-border-all" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="contact">
+                    <Link href="/contact">
                       <i className="far fa-list" />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 <div className="sort-text mb-15 me-4 me-xl-auto">
@@ -53,9 +53,9 @@ const page = () => {
                     >
                       <div className="image">
                         <span className="badge bgc-pink">Featured</span>
-                        <a href="#" className="heart">
+                        <Link href="/contact" className="heart">
                           <i className="fas fa-heart" />
-                        </a>
+                        </Link>
                         <img
                           src="/assets/images/destinations/zoo-image.jpg"
                           alt="Tour List"
@@ -75,7 +75,7 @@ const page = () => {
                           </div>
                         </div>
                         <h6>
-                          <Link href="contact">Emirates Park Zoo</Link>
+                          <Link href="/contact">Emirates Park Zoo</Link>
                         </h6>
                         {/* <ul className="blog-meta">
                           <li>
@@ -90,7 +90,7 @@ const page = () => {
                             <span>AED 45.00</span>/person
                           </span>
                           <Link
-                            href="contact"
+                            href="/contact"
                             className="theme-btn style-two style-three"
                           >
                             <i className="fal fa-arrow-right" />
@@ -108,9 +108,9 @@ const page = () => {
                       data-aos-offset={50}
                     >
                       <div className="image">
-                        <a href="contact" className="heart">
+                        <Link href="/contact" className="heart">
                           <i className="fas fa-heart" />
-                        </a>
+                        </Link>
                         <img
                           src="/assets/images/destinations/desert-safari.jpg"
                           alt="Tour List"
@@ -130,7 +130,7 @@ const page = () => {
                           </div>
                         </div>
                         <h6>
-                          <Link href="contact">Desert Safari Abu Dhabii</Link>
+                          <Link href="/contact">Desert Safari Abu Dhabii</Link>
                         </h6>
                         {/* <ul className="blog-meta">
                           <li>
@@ -145,7 +145,7 @@ const page = () => {
                             <span>AED 195.00</span>/person
                           </span>
                           <Link
-                            href="#"
+                            href="/contact"
                             className="theme-btn style-two style-three"
                           >
                             <i className="fal fa-arrow-right" />

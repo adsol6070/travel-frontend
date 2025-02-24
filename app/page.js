@@ -24,7 +24,7 @@ const page = () => {
                 data-aos-offset={50}
               >
                 <span className="subtitle mb-15">
-                  Royal Dusk Tours &amp; Travel
+                ROYAL DUSK TOURS - FZCO
                 </span>
                 <h1>Unforgettable journeys, seamless experiences</h1>
                 <p>
@@ -47,7 +47,7 @@ const page = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <img src="//assets/images/shapes/hero1.png" alt="Shape" />
+            <img src="/assets/images/shapes/hero1.png" alt="Shape" />
           </div>
           <div
             className="shape two"
@@ -56,7 +56,7 @@ const page = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <img src="//assets/images/shapes/hero2.png" alt="Shape" />
+            <img src="/assets/images/shapes/hero2.png" alt="Shape" />
           </div>
           <div
             className="shape three"
@@ -64,7 +64,7 @@ const page = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <img src="//assets/images/shapes/hero3.png" alt="Shape" />
+            <img src="/assets/images/shapes/hero3.png" alt="Shape" />
           </div>
           <div
             className="shape four"
@@ -73,7 +73,7 @@ const page = () => {
             data-aos-duration={1500}
             data-aos-offset={50}
           >
-            <img src="//assets/images/shapes/hero4.png" alt="Shape" />
+            <img src="/assets/images/shapes/hero4.png" alt="Shape" />
           </div>
         </div>
         <SearchFilter />
