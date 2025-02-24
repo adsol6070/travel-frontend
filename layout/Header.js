@@ -11,7 +11,7 @@ const Menu = () => {
         <div className="navbar-header">
           <div className="mobile-logo">
             <Link href="/">
-              <img src="/assets/images/logos/logo.png" alt="Logo" title="Logo" />
+              <img src="/assets/images/logos/rdusk-logo.png" alt="Logo" title="Logo" />
             </Link>
           </div>
           {/* Toggle Button */}
@@ -88,7 +88,7 @@ const Header1 = ({ sidebarClick }) => {
                 <div className="logo">
                   <Link href="/">
                     <img
-                      src="/assets/images/logos/logo.png"
+                      src="/assets/images/logos/rdusk-logo.png"
                       alt="Logo"
                       title="Logo"
                     />
@@ -126,7 +126,7 @@ const Header1 = ({ sidebarClick }) => {
               {/* Menu Button */}
               <div className="menu-btns py-10">
                 <Link
-                  href="cart"
+                  href=""
                   className="theme-btn style-two bgc-secondary"
                 >
                   <i className="fal fa-shopping-cart" />
@@ -173,7 +173,7 @@ const Header2 = ({ sidebarClick }) => {
                 <div className="logo">
                   <Link href="/">
                     <img
-                      src="/assets/images/logos/logo-two.png"
+                      src="/assets/images/logos/rdusk-logo.png"
                       alt="Logo"
                       title="Logo"
                     />
@@ -203,7 +203,7 @@ const Header2 = ({ sidebarClick }) => {
           </div>
           <div className="logo text-lg-center">
             <Link href="/">
-              <img src="/assets/images/logos/logo-two.png" alt="Logo" />
+              <img src="/assets/images/logos/rdusk-logo.png" alt="Logo" />
             </Link>
           </div>
           <hr className="my-40" />
@@ -363,7 +363,7 @@ const Header2 = ({ sidebarClick }) => {
             </li>
           </ul>
           <Link
-            href="cart"
+            href=""
             className="theme-btn style-two bgc-secondary"
           >
             <i className="fal fa-shopping-cart" />
@@ -405,9 +405,10 @@ const Header3 = ({ sidebarClick }) => {
                 <div className="logo">
                   <Link href="/">
                     <img
-                      src="/assets/images/logos/logo-two.png"
+                      src="/assets/images/logos/rdusk-logo.png"
                       alt="Logo"
                       title="Logo"
+                      width={160}
                     />
                   </Link>
                 </div>
@@ -420,7 +421,7 @@ const Header3 = ({ sidebarClick }) => {
               {/* Menu Button */}
               <div className="menu-btns py-10">
               <Link
-                  href="cart"
+                  href=""
                   className="theme-btn p-2 style-one bgc-secondary"
                 >
                   <i className="fal fa-shopping-cart m-0" />

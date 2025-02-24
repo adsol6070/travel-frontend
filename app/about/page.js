@@ -19,7 +19,7 @@ const page = () => {
               data-aos-duration={1500}
               data-aos-offset={50}
             >
-              <span className="subtitle mb-35">About Royal Dusk</span>
+              <span className="subtitle mb-35">About ROYAL DUSK TOURS - FZCO</span>
             </div>
             <div className="col-xl-9">
               <div
@@ -43,11 +43,12 @@ const page = () => {
                       </span>
                       <span className="text">Providing</span>
                       <span className="years">28+</span> */}
-                      <img src="/assets/images/logos/logo-two.png" alt="logo" />
+                      <img src="/assets/images/logos/rdusk-logo.png" alt="logo" />
                     </div>
                   </div>
                   <div className="col-md-8">
                     <p>
+                    License No - 56942 <br />
                     we specialize in crafting unforgettable travel experiences with professionalism and expertise. Whether you seek thrilling adventures, luxurious getaways, or seamless business trips, our dedicated team ensures every journey is smooth, enjoyable, and tailored to your needs. With years of industry experience and a passion for exploration, we provide top-notch services, from visa assistance to customized tour packages. Let us turn your travel dreams into reality!
                     </p>
                     <ul className="list-style-two mt-35">

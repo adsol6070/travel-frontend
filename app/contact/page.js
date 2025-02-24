@@ -136,7 +136,7 @@ const page = () => {
                       <h5>Need Help &amp; Support</h5>
                       <div className="text">
                         <i className="far fa-envelope" />{" "}
-                        <a href="mailto:support@gmail.com">support@gmail.com</a>
+                        <a href="mailto:go@royaldusk.com">go@royaldusk.com</a>
                       </div>
                     </div>
                   </div>
@@ -156,12 +156,12 @@ const page = () => {
                       <h5>Need Any Urgent</h5>
                       <div className="text">
                         <i className="far fa-phone" />{" "}
-                        <a href="callto:+0001234588">+000 (123) 45 88</a>
+                        <a href="callto:+919876349140">+91 98763-49140</a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6">
+                {/* <div className="col-md-6">
                   <div
                     className="contact-info-item"
                     data-aos="fade-up"
@@ -180,7 +180,7 @@ const page = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="col-md-6">
                   <div
                     className="contact-info-item"
@@ -195,8 +195,7 @@ const page = () => {
                     <div className="content">
                       <h5>Main Office Address</h5>
                       <div className="text">
-                        <i className="fal fa-map-marker-alt" /> 55 East 10th
-                        Street, New York, NY 10003, United States
+                        <i className="fal fa-map-marker-alt" />IFZA Business Park, DDP, 56942 - 001, A1 - 3641379065
                       </div>
                     </div>
                   </div>
@@ -251,7 +250,7 @@ const page = () => {
       {/* Contact Map Start */}
       <div className="contact-map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d96777.16150026117!2d-74.00840582560909!3d40.71171357405996!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1706508986625!5m2!1sen!2sbd"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.8717896147505!2d55.37710464224426!3d25.11856904046068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6f9f1fbfb607%3A0x4db0a2f5f59532d9!2sIFZA%20Business%20Park!5e0!3m2!1sen!2sin!4v1740376682396!5m2!1sen!2sin"
           style={{ border: 0, width: "100%" }}
           allowFullScreen=""
           loading="lazy"
