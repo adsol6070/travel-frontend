@@ -1,23 +1,23 @@
-# Use the official Node.js image as the base image
+# Use an official Node.js runtime as a parent image
 FROM node:18-alpine
 
-# Set the working directory inside the container
+# Set the working directory
 WORKDIR /app
 
-# Copy shared files and monorepo base configurations
-COPY package*.json ./
+# Copy package.json and package-lock.json before running npm install
+COPY package.json package-lock.json ./
 
-# Copy the specific service files
-COPY frontend ./frontend
-
-# Install dependencies for the specific service
+# Install dependencies
 RUN npm install
 
-# Set the working directory for the container
-WORKDIR /app/frontend
+# Copy the rest of the application
+COPY . .
 
-# Expose the port that the Next.js application runs on
+# Build the Next.js application
+RUN npm run build
+
+# Expose the port Next.js will run on
 EXPOSE 3000
 
 # Start the Next.js application
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "start"]

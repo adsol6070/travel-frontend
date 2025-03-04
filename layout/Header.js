@@ -11,7 +11,11 @@ const Menu = () => {
         <div className="navbar-header">
           <div className="mobile-logo">
             <Link href="/">
-              <img src="/assets/images/logos/rdusk-logo.png" alt="Logo" title="Logo" />
+              <img
+                src="/assets/images/logos/rdusk-logo.png"
+                alt="Logo"
+                title="Logo"
+              />
             </Link>
           </div>
           {/* Toggle Button */}
@@ -43,9 +47,10 @@ const Menu = () => {
             {/* <li>
               <a href="gellery">Gallery</a>
             </li>
+             */}
             <li>
-              <a href="blog">blog</a>
-            </li> */}
+              <Link href="/blog">blog</Link>
+            </li>
             <li>
               <Link href="/contact">Contact Us</Link>
             </li>
@@ -125,10 +130,7 @@ const Header1 = ({ sidebarClick }) => {
               </div>
               {/* Menu Button */}
               <div className="menu-btns py-10">
-                <Link
-                  href=""
-                  className="theme-btn style-two bgc-secondary"
-                >
+                <Link href="" className="theme-btn style-two bgc-secondary">
                   <i className="fal fa-shopping-cart" />
                 </Link>
                 {/* menu sidbar */}
@@ -154,11 +156,11 @@ const Header2 = ({ sidebarClick }) => {
   const [activeMenu, setActiveMenu] = useState("");
   const [multiMenu, setMultiMenu] = useState("");
   const activeMenuSet = (value) =>
-    setActiveMenu(activeMenu === value ? "" : value),
+      setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
       value === activeMenu ? { display: "block" } : { display: "none" };
   const multiMenuSet = (value) =>
-    setMultiMenu(multiMenu === value ? "" : value),
+      setMultiMenu(multiMenu === value ? "" : value),
     multiMenuActiveLi = (value) =>
       value === multiMenu ? { display: "block" } : { display: "none" };
 
@@ -362,10 +364,7 @@ const Header2 = ({ sidebarClick }) => {
               </div>
             </li>
           </ul>
-          <Link
-            href=""
-            className="theme-btn style-two bgc-secondary"
-          >
+          <Link href="" className="theme-btn style-two bgc-secondary">
             <i className="fal fa-shopping-cart" />
           </Link>
           <hr className="mb-65" />
@@ -420,15 +419,15 @@ const Header3 = ({ sidebarClick }) => {
               </div>
               {/* Menu Button */}
               <div className="menu-btns py-10">
-              <Link
-                  href=""
-                  className="theme-btn p-2 style-one bgc-secondary"
-                >
+                <Link href="" className="theme-btn p-2 style-one bgc-secondary">
                   <i className="fal fa-shopping-cart m-0" />
                 </Link>
                 {/* menu sidbar */}
                 <div>
-                  <button className="bg-transparent" onClick={() => sidebarClick()}>
+                  <button
+                    className="bg-transparent"
+                    onClick={() => sidebarClick()}
+                  >
                     <i className="fal fa-user" /> Log In
                   </button>
                 </div>
@@ -499,7 +498,11 @@ const Sidebar = ({ sidebarClick }) => {
                     <span
                       onClick={toggleForm}
                       className="form-switcher"
-                      style={{ cursor: "pointer", color: "#fff", margin: "5px" }}
+                      style={{
+                        cursor: "pointer",
+                        color: "#fff",
+                        margin: "5px",
+                      }}
                     >
                       Sign Up
                     </span>
@@ -543,7 +546,11 @@ const Sidebar = ({ sidebarClick }) => {
                     <span
                       onClick={toggleForm}
                       className="form-switcher"
-                      style={{ cursor: "pointer", color: "#fff", margin: "5px" }}
+                      style={{
+                        cursor: "pointer",
+                        color: "#fff",
+                        margin: "5px",
+                      }}
                     >
                       Login
                     </span>
@@ -557,4 +564,3 @@ const Sidebar = ({ sidebarClick }) => {
     </Fragment>
   );
 };
-

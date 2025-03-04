@@ -23,9 +23,7 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <span className="subtitle mb-15">
-                ROYAL DUSK TOURS - FZCO
-                </span>
+                <span className="subtitle mb-15">ROYAL DUSK TOURS - FZCO</span>
                 <h1>Unforgettable journeys, seamless experiences</h1>
                 <p>
                   {/* One site{" "} */}
@@ -97,7 +95,8 @@ const page = () => {
                   <Link href="destination-details">100+ Destinations</Link>
                 </h3>
                 <p>
-                Explore a world of endless possibilities with our curated travel experiences.
+                  Explore a world of endless possibilities with our curated
+                  travel experiences.
                 </p>
               </div>
             </div>
@@ -117,9 +116,7 @@ const page = () => {
                 <h3>
                   <Link href="destination-details">Best Price Guarantee</Link>
                 </h3>
-                <p>
-                Get the best deals on your dream vacations, guaranteed.
-                </p>
+                <p>Get the best deals on your dream vacations, guaranteed.</p>
               </div>
             </div>
           </div>
@@ -139,7 +136,8 @@ const page = () => {
                   <Link href="destination-details">Diverse Destinations</Link>
                 </h3>
                 <p>
-                From serene beaches to bustling cities, we take you everywhere.
+                  From serene beaches to bustling cities, we take you
+                  everywhere.
                 </p>
               </div>
             </div>
@@ -160,7 +158,8 @@ const page = () => {
                   <Link href="destination-details">Best Travel Guide</Link>
                 </h3>
                 <p>
-                Expert insights and local tips for a seamless travel experience.
+                  Expert insights and local tips for a seamless travel
+                  experience.
                 </p>
               </div>
             </div>
@@ -253,7 +252,10 @@ const page = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <SectionTitle title={"Unveil the World with Our Exclusive Tour Packages"} subtitle2="Journey Beyond Borders with Unmatched Comfort & Care"/>
+                <SectionTitle
+                  title={"Unveil the World with Our Exclusive Tour Packages"}
+                  subtitle2="Journey Beyond Borders with Unmatched Comfort & Care"
+                />
               </div>
             </div>
           </div>
@@ -270,16 +272,17 @@ const page = () => {
                   <a href="contact" className="heart">
                     <i className="fas fa-heart" />
                   </a>
-                  <img src="/assets/images/destinations/zoo-image.jpg" alt="Tour" />
+                  <img
+                    src="/assets/images/destinations/zoo-image.jpg"
+                    alt="Tour"
+                  />
                 </div>
                 <div className="content">
                   <span className="location">
                     <i className="fal fa-map-marker-alt" /> Dubai
                   </span>
                   <h6>
-                    <Link href="#">
-                    Emirates Park Zoo
-                    </Link>
+                    <Link href="#">Emirates Park Zoo</Link>
                   </h6>
                 </div>
                 <div className="destination-footer">
@@ -294,10 +297,7 @@ const page = () => {
                     <i className="fas fa-star-half-alt" />
                   </div>
                 </div>
-                <Link
-                  href="contact"
-                  className="theme-btn style-three"
-                >
+                <Link href="contact" className="theme-btn style-three">
                   <span data-hover="Explore">Explore</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
@@ -315,16 +315,17 @@ const page = () => {
                   <a href="contact" className="heart">
                     <i className="fas fa-heart" />
                   </a>
-                  <img src="/assets/images/destinations/desert-safari.jpg" alt="Tour" />
+                  <img
+                    src="/assets/images/destinations/desert-safari.jpg"
+                    alt="Tour"
+                  />
                 </div>
                 <div className="content">
                   <span className="location">
                     <i className="fal fa-map-marker-alt" /> Dubai
                   </span>
                   <h6>
-                    <Link href="contact">
-                    Desert Safari Abu Dhabi
-                    </Link>
+                    <Link href="contact">Desert Safari Abu Dhabi</Link>
                   </h6>
                 </div>
                 <div className="destination-footer">
@@ -339,10 +340,7 @@ const page = () => {
                     <i className="fas fa-star-half-alt" />
                   </div>
                 </div>
-                <Link
-                  href="contact"
-                  className="theme-btn style-three"
-                >
+                <Link href="contact" className="theme-btn style-three">
                   <span data-hover="Explore">Explore</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
@@ -364,7 +362,9 @@ const page = () => {
             >
               <div
                 className="cta-item"
-                style={{ backgroundImage: "url(/assets/images/cta/desert.jpg)" }}
+                style={{
+                  backgroundImage: "url(/assets/images/cta/desert.jpg)",
+                }}
               >
                 <span className="category">Desert</span>
                 <h2>Unveil the Mystique of Golden Sands!</h2>
@@ -390,7 +390,10 @@ const page = () => {
               >
                 <span className="category">City</span>
                 <h2>Discover the Heartbeat of Urban Adventures!</h2>
-                <Link href="tour-and-activities" className="theme-btn style-two">
+                <Link
+                  href="tour-and-activities"
+                  className="theme-btn style-two"
+                >
                   <span data-hover="Book Now">Explore Tours</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
@@ -405,7 +408,9 @@ const page = () => {
             >
               <div
                 className="cta-item"
-                style={{ backgroundImage: "url(/assets/images/cta/aquarium.jpg)" }}
+                style={{
+                  backgroundImage: "url(/assets/images/cta/aquarium.jpg)",
+                }}
               >
                 <span className="category">Aquarium</span>
                 <h2>Dive into a World of Marine Wonders!</h2>
@@ -460,7 +465,10 @@ const page = () => {
                     />
                   </div>
                   <p>
-                  Experience the world like never before with our expertly curated travel packages. Let us handle the details while you create memories that last a lifetime. Travel with confidence, comfort, and style.
+                    Experience the world like never before with our expertly
+                    curated travel packages. Let us handle the details while you
+                    create memories that last a lifetime. Travel with
+                    confidence, comfort, and style.
                   </p>
                   <Link
                     href="about"
@@ -607,11 +615,14 @@ const page = () => {
               >
                 <div className="section-title mb-30">
                   <h2>
-                  Discover the Difference: Exceptional Features That Elevate Your Journey
+                    Discover the Difference: Exceptional Features That Elevate
+                    Your Journey
                   </h2>
                 </div>
                 <p>
-                We curate seamless travel experiences, ensuring every detail is taken care of. Travel stress-free, create lasting memories, and explore the world with confidence.
+                  We curate seamless travel experiences, ensuring every detail
+                  is taken care of. Travel stress-free, create lasting memories,
+                  and explore the world with confidence.
                 </p>
                 <ul className="list-style-two mt-35 mb-30">
                   <li>Expertly Curated Trips</li>

@@ -139,7 +139,11 @@ const Footer1 = () => {
               <div className="footer-widget footer-text">
                 <div className="footer-logo mb-25">
                   <Link href="/">
-                    <img src="/assets/images/logos/rdusk-logo.png" width={160} alt="Logo" />
+                    <img
+                      src="/assets/images/logos/rdusk-logo.png"
+                      width={160}
+                      alt="Logo"
+                    />
                   </Link>
                 </div>
                 <p>
@@ -413,7 +417,11 @@ const Footer2 = ({ insta }) => {
               <div className="footer-widget footer-text">
                 <div className="footer-logo mb-40">
                   <Link href="/">
-                    <img src="/assets/images/logos/white-logo.png" width={170} alt="Logo" />
+                    <img
+                      src="/assets/images/logos/white-logo.png"
+                      width={170}
+                      alt="Logo"
+                    />
                   </Link>
                 </div>
                 <div className="footer-map">
@@ -439,17 +447,20 @@ const Footer2 = ({ insta }) => {
                   <h5>Explore</h5>
                 </div>
                 <ul className="list-style-three">
-                <li>
+                  <li>
                     <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <Link href="about">About</Link>
+                    <Link href="/about">About</Link>
                   </li>
                   <li>
-                    <Link href="tour-and-activities">Tour & Activities</Link>
+                    <Link href="/tour-and-activities">Tour & Activities</Link>
                   </li>
                   <li>
-                    <Link href="contact">Contact</Link>
+                    <Link href="/blog">Blogs</Link>
+                  </li>
+                  <li>
+                    <Link href="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>
@@ -466,7 +477,7 @@ const Footer2 = ({ insta }) => {
                   <h5>Destinations</h5>
                 </div>
                 <ul className="list-style-three">
-                <li>
+                  <li>
                     <Link href="tour-and-activities">Abu Dhabhi</Link>
                   </li>
                   <li>
@@ -499,9 +510,7 @@ const Footer2 = ({ insta }) => {
                   </li>
                   <li>
                     <i className="fal fa-envelope" />{" "}
-                    <a href="mailto:go@royaldusk.com">
-                    go@royaldusk.com
-                    </a>
+                    <a href="mailto:go@royaldusk.com">go@royaldusk.com</a>
                   </li>
                   <li>
                     <i className="fal fa-phone-volume" />{" "}
@@ -517,11 +526,11 @@ const Footer2 = ({ insta }) => {
         <div className="container">
           <div className="row">
             {/* <div className="col-lg-12"> */}
-              <div className="copyright-text text-center">
-                <p>
-                  <a href="">ROYAL DUSK TOURS - FZCO</a> All rights reserved
-                </p>
-              </div>
+            <div className="copyright-text text-center">
+              <p>
+                <a href="">ROYAL DUSK TOURS - FZCO</a> All rights reserved
+              </p>
+            </div>
             {/* </div> */}
             {/* <div className="col-lg-7 text-center text-lg-end">
               <ul className="footer-bottom-nav">
